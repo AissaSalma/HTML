@@ -14,17 +14,10 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-header {
-  background-image: url("../foto's/Kruiden-en-specerijen-1024x683.jpg");
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-}
-
 h1 {
   text-align: center;
-  color: #ffffff;
-  font-size: 75px;
+  color: #ffa873;
+  font-size: 48px;
 }
 
 /*---------------------------------------/*
