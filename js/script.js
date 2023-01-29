@@ -1,6 +1,11 @@
-const myCarouselElement = document.querySelector('#myCarousel')
+// Roep DOM element
 
-const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
-  touch: false
-})
+let openClose = document.getElementById('openClose');
+
+// Functie
+function startTime() {
+  let now = new Date();
+  console.log(now);
+}
+
+window.addEventListener('load', startTime());

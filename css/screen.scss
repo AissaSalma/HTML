@@ -7,6 +7,7 @@
 /*---------------------------------------/*
  # GENERIC
 /*---------------------------------------*/
+
 body {
   margin: 0;
   padding: 100px 0px;
@@ -174,7 +175,37 @@ h1 {
 ul {
   list-style: none;
 }
+#main {
+  margin-top: 10em;
+  background: rgb(255, 215, 122);
+  padding: 30px;
+}
 
+#main .section-open {
+  background-color: #f7f5ec;
+  padding: 74px;
+  overflow: hidden;
+}
+#main .section-open h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#main .section-open #openClose {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#main .section-open #openClose.open {
+  color: greenyellow;
+  opacity: 0.5;
+}
+#main .section-open #openClose.closed {
+  color: red;
+  opacity: 0.5;
+}
 .footer {
   background-color: #24262b;
   padding: 70px 0;
